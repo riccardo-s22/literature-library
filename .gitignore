@@ -1,0 +1,13 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Local-only scratch (not part of the canonical knowledge base)
+08_INBOX/*.pdf
+08_INBOX/*.PDF
+*.tmp
+
+# Keep everything else: records, agent config, skills, tools, generated INDEX.md/index.csv
+# (index files are committed so the cloud routine can dedup without rebuilding first)
