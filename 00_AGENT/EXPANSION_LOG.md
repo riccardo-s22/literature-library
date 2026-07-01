@@ -5,6 +5,48 @@ window for the next monthly pass. Newest entries at the top. Maintained by the `
 
 ---
 
+## 2026-07-01 — Monthly pass #1 (mode: monthly, window: 2026-06-22 → 2026-07-01)
+**Window:** 2026-06-22 to 2026-07-01 (publication date filter). **Added: 4 records.** Library total: 30 → **34**.
+Per-domain (before → after): D1 8→9, D2 7→7 (no new records), D3 8→9, D4 7→9.
+
+### Queries per domain
+- **D1 Neurodeg/TBI/ALS/AD:** "neurodegeneration ALS TDP-43 tau biomarker single cell 2026" + "tauopathy FTLD biomarker CSF 2026" (PubMed, date-filtered). Top hits triage: TREM2 review (Mol Psychiatry, PMID 41792456) → review, skip; β2M aging brain (PMID 42082100) → review, skip; tauopathy drug status review → review, skip. Selected: Kac 2026 (PMID 42340485, Acta Neuropathol, published 2026-06-24) — p-tau/tau368 ratio for FTLD-tau vs FTLD-TDP discrimination; PMC full text retrieved and inspected.
+- **D2 SWCNT/biosensors:** "single-walled carbon nanotube SWCNT NIR fluorescence biosensor biofluid serum plasma 2026" (PubMed, date-filtered) + WebSearch ("SWCNT single-walled carbon nanotube NIR fluorescence biosensor biofluid serum plasma 2026"). PubMed: off-domain CNT drug-delivery and materials-science papers only. WebSearch: SWCNT NIR-II high-throughput screening (bioRxiv) — 403 Forbidden on fetch; abstract suggests in vitro characterization, not biofluid sensing. No on-domain SWCNT biosensor primary papers confirmed in window. WebSearch second pass ("ACS Nano OR Small 2026 single-walled carbon nanotube optical sensor serum biomarker near-infrared June July 2026"): confirmed DNA-SWCNT ML paper (PMID 41498822, Nano Lett) published January 7 2026 — outside window → skip. **No D2 candidates found in window.**
+- **D3 Transcriptomics:** "single-cell RNA-seq spatial transcriptomics multi-omics integration 2026" + "scRNA-seq splicing differential expression computational method 2026" (PubMed, date-filtered). Most hits off-domain (glioblastoma modeling, intervertebral disc, lymphoma). Selected: Ren 2026 (PMID 42374103, Sci Data, published 2026-06-27) — Stereo-seq unified multi-organ spatial atlas including brain, as D3 benchmark resource (P3).
+- **D4 Mechanobiology:** "mechanobiology OR ECM stiffness OR neural injury OR blood-brain barrier OR force signaling OR confinement migration" (PubMed, date-filtered 2026-06-22 to 2026-07-01). Triage: macrophage ICH white matter repair (PMID 42381008, scRNA-seq, off-domain injury type) → skip; medicinal plants AD review → skip; BBB vascular gate neuroendocrine (PMID 42102817, Cell, May 2026) — outside window → confirm: published 2026-05-07 → skip; fenofibrate brain edema TBI → primarily pharmacological, not mechanobiology primary; astrocyte mechanobiology review (PMID 42206674, Glia, 2026-Jul) → viable D4 review (P3); dried platelet BBB repair TBI (PMID 41843452, Blood, 2026-06-25) → P2 primary study with Ang-1/Tie2 mechanism and cortical transcriptomics.
+
+### Records ADDED (path + priority + status)
+- **D1** `02_PAPERS/2026/kac_2026_tau368-ftld-tau-csf-biomarker.md` — **P1, verified (PMC full text inspected)**. PMID 42340485, DOI 10.1007/s00401-026-03042-1, PMCID PMC13294230. Acta Neuropathol 2026-06-24. p-tau181/tau368 and p-tau212/tau368 CSF ratios discriminate autopsy-confirmed FTLD-tau from FTLD-TDP; Penn INDD cohort n=176 + UCSD IHC sub-cohort n=16.
+- **D3** `02_PAPERS/2026/ren_2026_stereo-seq-multiorgan-spatial-atlas.md` — P3, verified (abstract/metadata). PMID 42374103, DOI 10.1038/s41597-026-07752-9. Sci Data 2026-06-27. Unified Stereo-seq multi-organ dataset (10 mouse organs including brain, 23 sections, cell-bin + bin-50, cell type annotations + matched histology images).
+- **D4** `02_PAPERS/2026/trivedi_2026_dried-platelet-bbb-repair-tbi.md` — P2, verified (abstract/metadata). PMID 41843452, DOI 10.1182/blood.2025031826. Blood 2026-06-25. Freeze-dried platelet biologic reduces ICH, restores BBB integrity, attenuates neuroinflammation in murine TBI via Ang-1/Tie2 pathway; includes cortical/hippocampal transcriptomics.
+- **D4** `02_PAPERS/2026/strat_2026_astrocyte-mechanobiology-review.md` — P3, verified (abstract/metadata). PMID 42206674, DOI 10.1002/glia.70167. Glia 2026-07. Review synthesizing astrocyte mechanosensing elements (integrins, focal adhesions, junctional proteins, mechanosensitive channels) across development and disease (TBI, glaucoma, glioma).
+
+### Candidates SKIPPED (one-line reason)
+- TREM2 in neurodegeneration (PMID 41792456, Mol Psychiatry) — review, orient-only.
+- β2M aging brain knowledge mapping (PMID 42082100) — review, orient-only.
+- Tauopathy drug-status reviews and miRNA reviews — reviews, orient-only.
+- Medicinal plants / phytochemicals for AD (PMID 42382677) — integrative review, off-domain evidence quality.
+- BBB vascular gate neuroendocrine cancers (PMID 42102817, Cell, May 2026) — outside window (published 2026-05-07).
+- Macrophage CTSS lipid metabolic reprogramming ICH (PMID 42381008) — scRNA-seq primary study but injury type is intracerebral hemorrhage (off-domain from TBI blast/mechanobiology focus); biological question is macrophage lipid handling, not neural mechanobiology or TBI blast.
+- Fenofibrate brain edema TBI (identified in search) — pharmacological intervention, not mechanobiology primary; TBI model details not matching D4 calibration gap.
+- Glioblastoma evolution modeling (PMID 42374477) — off-domain (cancer biology, not neurodegeneration/TBI).
+- SWCNT-related papers identified: DNA-SWCNT ML (PMID 41498822, Nano Lett) — published January 2026, outside monthly window; no biofluid-compatible SWCNT biosensor papers in window.
+
+### Notes / needs_full_text (revisit when access available)
+- needs_full_text: trivedi_2026 (Blood paywalled; full text needed for: TBI model type, exact group sizes, transcriptomic platform, data deposition accession; check COI disclosure for Cellphire Therapeutics author).
+- needs_full_text: strat_2026 (Glia paywalled; full text needed to extract mechanosensing pathways, signaling molecules, primary studies cited per mechanism).
+- needs_full_text: ren_2026 (Scientific Data; verify data accession/repository, data-use terms, brain annotation quality vs. Allen Brain Atlas/BICCN).
+- Kac 2026: supplementary tables not inspected (subgroup AUCs, PSP-inclusive analyses, full cohort demographics). Access via PMC supplementary files when needed.
+- D2 gap persists: no new on-domain SWCNT biosensor papers in this window. Continue monitoring ACS Nano, Small, Nanoscale, Biosensors and Bioelectronics in next monthly pass.
+
+### Gaps to target next pass (2026-07-01 → next monthly)
+- **D1:** Plasma tau368 / plasma biomarker validation of the p-tau/tau368 ratio (author-stated future work in Kac 2026). FTD plasma biomarker and presymptomatic FTLD-tau cohort studies. Any mammalian calibrated shock-tube or blast TBI primary (still absent; only organoid + C. elegans models in library).
+- **D2:** Persistent gap: no new biofluid-compatible SWCNT optical nanosensor papers in June window. Continue monitoring for in-vivo neural SWCNT nanosensor and corona-phase QC in biofluid matrices.
+- **D3:** Cross-cohort harmonization benchmark still thin (PRIME/GAMMI deferred from deepen pass #3). Verify Ren 2026 data accessibility and evaluate brain tissue annotation quality for benchmarking use.
+- **D4:** Confinement/migration assay linked to neural or glial injury readouts (gap from deepen pass #3 still open). Verify Trivedi 2026 transcriptomic data deposition for cross-comparison with organoid/blast TBI datasets.
+
+---
+
 ## 2026-06-22 — Deepen pass #3 (mode: deepen, comprehensive)
 **Window:** none (date-agnostic). **Added: 8 records.** Library total: 22 → **30**.
 Per-domain (before → after): D1 6→8, D2 5→7, D3 6→8, D4 5→7.
