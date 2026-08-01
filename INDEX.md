@@ -1,14 +1,18 @@
 # LIBRARY Catalog (auto-generated)
 
-_Generated 2026-07-01 by `00_AGENT/tools/build_index.py` — do not edit by hand; rerun the script after adding or changing records._
+_Generated 2026-08-01 by `00_AGENT/tools/build_index.py` — do not edit by hand; rerun the script after adding or changing records._
 
-**34 records** across 1 type(s). Companion machine-readable table: `00_AGENT/index.csv`.
+**40 records** across 1 type(s). Companion machine-readable table: `00_AGENT/index.csv`.
 
-## Paper (34)
+## Paper (40)
 
 | P | Title | Year | Status | Topics | ID | Record |
 |---|---|---|---|---|---|---|
+| 1 | Development and characterization of a novel TDP-43 positron emission tomography tracer: [18F]JNJ-TDP43-1 | 2026 | partial |  | 10.1002/alz.71675 | [xia_2026_tdp43-pet-tracer-jnj-als-ftd-late.md](02_PAPERS/2026/xia_2026_tdp43-pet-tracer-jnj-als-ftd-late.md) |
+| 1 | Integrating structurally defined DNA-carbon nanotube sensors with machine learning for cancer detection | 2026 | verified |  | 10.1126/sciadv.aef9530 | [chen_2026_dna-scnt-ml-liquid-biopsy-cancer.md](02_PAPERS/2026/chen_2026_dna-scnt-ml-liquid-biopsy-cancer.md) |
 | 1 | Multi-modal dissection of cell-type specific TDP-43 pathology in the motor cortex | 2026 | partial | neurodegeneration, ALS, AD_ADRD, single_cell, transcriptomics, spatial_omics, multi_omics | 10.1038/s41467-026-69944-6 | [ruf_2026_celltype-tdp43-motor-cortex.md](02_PAPERS/2026/ruf_2026_celltype-tdp43-motor-cortex.md) |
+| 1 | Plasma eMTBR-tau243 and %p-tau217 for Biological Staging of Alzheimer Disease | 2026 | verified |  | 10.1001/jamaneurol.2026.1405 | [salvado_2026_plasma-staging-ad-ptau217-emtbr-tau243.md](02_PAPERS/2026/salvado_2026_plasma-staging-ad-ptau217-emtbr-tau243.md) |
+| 1 | Single-cell multiomics connects 3D genome and transcriptome alterations in Alzheimer's disease | 2026 | partial |  | 10.1126/science.adz1652 | [zhang_2026_gage-seq-3d-genome-transcriptome-alzheimer.md](02_PAPERS/2026/zhang_2026_gage-seq-3d-genome-transcriptome-alzheimer.md) |
 | 1 | Tau368 improves p-tau diagnostic accuracy for FTLD-tau from FTLD-TDP | 2026 | verified | neurodegeneration, AD_ADRD | 10.1007/s00401-026-03042-1 | [kac_2026_tau368-ftld-tau-csf-biomarker.md](02_PAPERS/2026/kac_2026_tau368-ftld-tau-csf-biomarker.md) |
 | 1 | A comprehensive head-to-head comparison of key plasma phosphorylated tau 217 biomarker tests | 2025 | verified | neurodegeneration, AD_ADRD, aging | 10.1093/brain/awae346 | [warmenhoven_2025_ptau217-head-to-head-biofinder2.md](02_PAPERS/2025/warmenhoven_2025_ptau217-head-to-head-biofinder2.md) |
 | 1 | A tabletop blast device for the study of the long-term consequences of traumatic brain injury on brain organoids | 2025 | verified | neurodegeneration, TBI, ALS, AD_ADRD, mechanobiology, organoid | 10.1016/j.crmeth.2025.101213 | [sirtori_2025_tabletop-blast-organoid-tbi.md](02_PAPERS/2025/sirtori_2025_tabletop-blast-organoid-tbi.md) |
@@ -20,8 +24,10 @@ _Generated 2026-07-01 by `00_AGENT/tools/build_index.py` — do not edit by hand
 | 1 | Molecular characterization of selectively vulnerable neurons in Alzheimer's disease | 2021 | verified | neurodegeneration, AD_ADRD, aging, single_cell, transcriptomics | 10.1038/s41593-020-00764-7 | [leng_2021_rorb-vulnerable-neurons-ad.md](02_PAPERS/2021/leng_2021_rorb-vulnerable-neurons-ad.md) |
 | 1 | Telescope: Characterization of the retrotranscriptome by accurate estimation of transposable element expression | 2019 | verified | transcriptomics, single_cell, multi_omics | 10.1371/journal.pcbi.1006453 | [bendall_2019_telescope-te-quantification.md](02_PAPERS/2019/bendall_2019_telescope-te-quantification.md) |
 | 2 | A dried platelet-derived biologic for blood-brain barrier repair and hemorrhage control after TBI in mice. | 2026 | verified | mechanobiology, neurodegeneration, TBI | 10.1182/blood.2025031826 | [trivedi_2026_dried-platelet-bbb-repair-tbi.md](02_PAPERS/2026/trivedi_2026_dried-platelet-bbb-repair-tbi.md) |
+| 2 | Elevation of the mechanically-sensitive protein emerin links nuclear mechanotransduction to tau-induced cytoskeletal remodeling in neurons | 2026 | verified |  | 10.1080/19491034.2026.2697135 | [sohn_2026_emerin-tau-nuclear-mechanotransduction-neurons.md](02_PAPERS/2026/sohn_2026_emerin-tau-nuclear-mechanotransduction-neurons.md) |
 | 2 | Interpretable data integration for single-cell and spatial multi-omics | 2026 | verified | transcriptomics, single_cell, spatial_omics, multi_omics | 10.1016/j.cels.2025.101479 | [yang_2026_fgot-spatial-interpretable-integration.md](02_PAPERS/2026/yang_2026_fgot-spatial-interpretable-integration.md) |
 | 2 | MAJIQ-CLIN: A novel tool to help identify Mendelian disease-causing variants from RNA-Seq data | 2026 | needs_full_text | transcriptomics, multi_omics | 10.1016/j.gim.2026.102628 | [aicher_2026_majiq-clin-splicing-outlier.md](02_PAPERS/2026/aicher_2026_majiq-clin-splicing-outlier.md) |
+| 2 | TGF-β1-induced endothelial transcytosis drives blood-brain barrier leakage during aging | 2026 | partial |  | 10.1016/j.neuron.2026.06.003 | [fang_2026_tgfb1-transcytosis-bbb-aging-neuron.md](02_PAPERS/2026/fang_2026_tgfb1-transcytosis-bbb-aging-neuron.md) |
 | 2 | saseR: juggling offsets unlocks RNA-seq tools for fast and scalable differential usage, aberrant splicing and expression retrieval | 2026 | needs_full_text | transcriptomics, multi_omics | 10.1186/s13059-026-03973-8 | [segers_2026_saser-aberrant-splicing-expression.md](02_PAPERS/2026/segers_2026_saser-aberrant-splicing-expression.md) |
 | 2 | Compression injury regulates astrocyte morphology, metabolic function, and extracellular matrix modification in a 3D hydrogel | 2025 | needs_full_text | mechanobiology, neurodegeneration, TBI | 10.1101/2025.06.20.660800 | [wip_2025_compression-injury-astrocyte-3d-hydrogel.md](02_PAPERS/2025/wip_2025_compression-injury-astrocyte-3d-hydrogel.md) |
 | 2 | Decoding Hidden Features in Near-Infrared Fluorescence Spectra of Single-Walled Carbon Nanotubes via Machine Learning for Multiplexed Virus Identification | 2025 | verified | biosensors, nanomaterials | 10.1021/acsnano.5c05727 | [tian_2025_swcnt-nir-ml-virus-spectral-decoding.md](02_PAPERS/2025/tian_2025_swcnt-nir-ml-virus-spectral-decoding.md) |
