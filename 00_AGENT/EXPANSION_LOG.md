@@ -5,6 +5,52 @@ window for the next monthly pass. Newest entries at the top. Maintained by the `
 
 ---
 
+## 2026-08-01 — Monthly pass #2 (mode: monthly, window: 2026-07-01 → 2026-08-01)
+**Window:** 2026-07-01 to 2026-08-01 (publication date filter, PubMed pdat). **Added: 6 records.** Library total: 34 → **40**.
+Per-domain (before → after): D1 9→12 (+3), D2 7→8 (+1), D3 9→10 (+1), D4 9→9 (no new standalone D4; Sohn 2026 counted in D1+D4 cross-domain, Fang 2026 also D1+D4).
+
+### Queries per domain
+- **D1 Neurodeg/TBI/ALS/AD:** "neurodegeneration ALS TDP-43 tau biomarker CSF plasma 2026" + "Alzheimer staging biomarker plasma PET 2026" (PubMed, date-filtered). Top candidate: Salvadó 2026 (PMID 42189519, JAMA Neurol, 2026-07-01) — two-analyte plasma AD staging (%p-tau217 + eMTBR-tau243); PMC full text inspected. Second: Xia 2026 (PMID 42471754, Alzheimer's Dementia, 2026-07) — TDP-43 PET tracer [18F]JNJ-TDP43-1 (J&J); abstract inspected, PMC13380671 available.
+- **D2 SWCNT/biosensors:** "carbon nanotube OR SWCNT OR nanoparticle fluorescence biosensor biomarker detection" (PubMed, date-filtered 2026-07-01 to 2026-08-01) + WebSearch for SWCNT NIR preprints. Selected: Chen 2026 (PMID 42525763, Sci Adv, 2026-07-29) — structurally defined DNA-scCNT sensor array (6 single-chirality species) + ensemble ML for multi-cancer liquid biopsy in serum (n=253); PMC full text inspected. D2 aptamer-CNT review (PMID 42509689) skipped — review. MWCNT polyester composites (PMID 42513879) — off-domain materials science.
+- **D3 Transcriptomics/single-cell:** "neurodegeneration OR ALS OR Alzheimer single-cell OR snRNA-seq OR spatial transcriptomics software OR tool OR pipeline OR foundation model" + "differential expression OR splicing OR pseudobulk single-cell brain OR neuron" (PubMed, date-filtered). Large result sets (>10,000 hits); triage by abstract: Zhang 2026 (PMID 42490473, Science, 2026-07-23) — GAGE-seq joint single-cell 3D chromatin + transcriptome in AD postmortem brain + Hicformer deep learning framework; abstract inspected. ST review (PMID 42511496, Int J Mol Sci) — review, skip. Cerebellar connectome (PMID 42458125) — off-domain. TOPMed eQTL/sQTL (PMID 42462027, Science) — blood/lung focus, not brain-specific, skip. ANXA11/TDP-43 review (PMID 42414528, Acta Neuropathol) — review only; skip.
+- **D4 Mechanobiology:** "blood-brain barrier OR astrocyte OR neural mechanobiology OR ECM stiffness OR force signaling OR confinement OR TBI blast neural injury" (PubMed, date-filtered). Triage of second metadata batch: Fang 2026 (PMID 42385697, Neuron, 2026-07-01) — TGF-β1/Mfsd2a/caveolin-1 mechanism for age-related BBB transcytosis with AAV + pharmacological interventions; abstract inspected. Sohn 2026 (PMID 42415348, Nucleus, 2026-07-07) — emerin nuclear mechanotransduction in tauopathy neurons (DIA proteomics + iPSC validation); PMC full text inspected (counted as D1+D4 cross-domain). Glia-ECM review (PMID 42505379, Cells) — review, skip. BBB permeability assessment review (PMID 42529882) — review, skip. Nat Immunol astrocyte innate immune (PMID 42373786, June 29) — outside window; skip. Amygdala astrocytes (PMID 41881020, March 2026) — outside window; skip.
+
+### Records ADDED (path + priority + status)
+- **D1** `02_PAPERS/2026/salvado_2026_plasma-staging-ad-ptau217-emtbr-tau243.md` — **P1, verified (PMC full text inspected)**. PMID 42189519, DOI 10.1001/jamaneurol.2026.1405, PMCID PMC13213595. JAMA Neurology 2026-07-01. Plasma %p-tau217 + eMTBR-tau243 two-analyte biological staging model for AD; C index 0.91 in BioFINDER-2 (n=872) and Knight ADRC (n=156); AUC 0.96 vs neuropathology (n=80).
+- **D1** `02_PAPERS/2026/xia_2026_tdp43-pet-tracer-jnj-als-ftd-late.md` — **P1, partial (abstract inspected)**. PMID 42471754, DOI 10.1002/alz.71675, PMCID PMC13380671. Alzheimer's Dementia 2026-07. First characterized TDP-43 PET tracer [18F]JNJ-TDP43-1; Kd = 7.1 nM; brain uptake + rapid washout in rats + NHP; target engagement in AAV-hTDP43 model.
+- **D1+D3** `02_PAPERS/2026/zhang_2026_gage-seq-3d-genome-transcriptome-alzheimer.md` — **P1, partial (abstract inspected)**. PMID 42490473, DOI 10.1126/science.adz1652. Science 2026-07-23. GAGE-seq joint single-cell 3D genome + transcriptome in AD postmortem brain (Rush ADRC); Hicformer deep learning for 3D genome–expression prediction; integration with spatial transcriptomics and chromatin accessibility.
+- **D2** `02_PAPERS/2026/chen_2026_dna-scnt-ml-liquid-biopsy-cancer.md` — **P1, verified (PMC full text inspected)**. PMID 42525763, DOI 10.1126/sciadv.aef9530, PMCID PMC13418527. Science Advances 2026-07-29. Structurally defined DNA-scCNT array (6 single-chirality species) + ensemble ML for multi-cancer serum classification; 89% sensitivity / 96% specificity (n=253); early-stage LuC 92%/95%; ATP extraction protocol reusable.
+- **D1+D4** `02_PAPERS/2026/sohn_2026_emerin-tau-nuclear-mechanotransduction-neurons.md` — **P2, verified (PMC full text inspected)**. PMID 42415348, DOI 10.1080/19491034.2026.2697135, PMCID PMC13349007. Nucleus 2026-07-07. Emerin elevated in iTau (BE(2)-C tau R406W) and tau mutant iPSC neurons; emerin overexpression → neurotoxicity + ↑F-actin + nuclear invagination; DIA proteomics ~5,300 proteins (Frost lab, Brown/UT Health).
+- **D1+D4** `02_PAPERS/2026/fang_2026_tgfb1-transcytosis-bbb-aging-neuron.md` — **P2, partial (abstract inspected)**. PMID 42385697, DOI 10.1016/j.neuron.2026.06.003. Neuron 2026-07-01. TGF-β1/Tgfbr2/Smad2-4/Mfsd2a/caveolin-1 pathway drives age-related BBB leakage via caveolar transcytosis (not tight junction disruption); AAV + conditional KO + pharmacological inhibition validated in aged mice.
+
+### Candidates SKIPPED (one-line reason)
+- ANXA11/TDP-43 review (PMID 42414528, Acta Neuropathol) — review; no new primary data.
+- TOPMed eQTL/sQTL cross-cohort Science (PMID 42462027) — blood + lung tissue focus, not brain; off-domain.
+- Spatial transcriptomics aging brain review (PMID 42511496, Int J Mol Sci) — review.
+- Cerebellar connectome (PMID 42458125, Cerebellum) — off-domain (rat tract-tracing, not relevant diseases).
+- Glia-ECM CNS review (PMID 42505379, Cells) — review.
+- BBB permeability review (PMID 42529882, J Zhejiang Univ Sci B) — review.
+- Spliced. (PMID 42457577, Trends Genet) — editorial/commentary, not primary.
+- Aptamer-CNT hybrid review (PMID 42509689, Mini Rev Med Chem) — review.
+- MWCNT polyester composites (PMID 42513879, Materials Basel) — materials science, off-domain.
+- Nat Immunol astrocyte innate immune (PMID 42373786, June 29) — outside window.
+- Amygdala astrocyte encoding (PMID 41881020, March 2026) — outside window.
+
+### Notes / needs_full_text (revisit when access available)
+- needs_full_text: xia_2026 — PMC13380671 available; retrieve to confirm full pharmacokinetic parameters, selectivity panel, and autoradiography in human tissue.
+- needs_full_text: zhang_2026 — Science paywalled; no PMC found; obtain via institutional access to confirm sample sizes, GAGE-seq protocol details, and Hicformer code availability.
+- needs_full_text: fang_2026 — Neuron paywalled; no PMC found; obtain to confirm mouse strain/age, exact sample sizes, pharmacological inhibitor identity, and behavioral endpoint details.
+- chen_2026: supplement not inspected; confirm per-group sample sizes, exact external validation split, and ML hyperparameters.
+- sohn_2026: supplement not inspected; confirm emerin fold change, proteomic data accession (PRIDE/MassIVE), and iPSC neuron genotype.
+
+### Gaps to target next pass (2026-08-01 → next monthly)
+- **D1:** Mammalian calibrated blast/shock-tube TBI primary still absent; C. elegans model only. Monitor first-in-human [18F]JNJ-TDP43-1 PET study announcements. Plasma tau368 validation (Kac 2026 next steps). Human AD postmortem emerin data.
+- **D2:** D2 gap narrowed with Chen 2026 (DNA-scCNT multi-cancer serum); however neurodegeneration biofluid SWCNT sensing still absent. Monitor ACS Nano, Biosensors Bioelectronics, Nanoscale for NIR SWCNT + biofluid + neuro-related analytes.
+- **D3:** GAGE-seq and Hicformer code/data release (Zhang 2026); PRIME atlas-level sc+ST integration (bioRxiv, deferred from deepen pass #3); cross-cohort harmonization benchmarks for brain data.
+- **D4:** Cauzzi 2026 (PNN/ECM/PV-IN/DA-loss, Neurobiol Dis) — identified as candidate in D4 searches but exact PMID/date not confirmed in window; verify in next pass. Confinement/migration assay linked to neural/glial injury readouts still absent.
+
+---
+
 ## 2026-07-01 — Monthly pass #1 (mode: monthly, window: 2026-06-22 → 2026-07-01)
 **Window:** 2026-06-22 to 2026-07-01 (publication date filter). **Added: 4 records.** Library total: 30 → **34**.
 Per-domain (before → after): D1 8→9, D2 7→7 (no new records), D3 8→9, D4 7→9.
