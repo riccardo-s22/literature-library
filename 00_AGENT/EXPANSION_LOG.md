@@ -5,6 +5,64 @@ window for the next monthly pass. Newest entries at the top. Maintained by the `
 
 ---
 
+## 2026-09-01 — Monthly pass #2 (mode: monthly, window: 2026-07-01 → 2026-09-01)
+**Window:** 2026-07-01 to 2026-09-01 (PubMed `datetype=pdat`). **Added: 10 records.** Library total: 34 → **44**.
+Per-domain (before → after): D1 9→14, D2 7→9, D3 9→11, D4 9→10.
+
+### Queries per domain
+- **D1 Neurodeg/TBI/ALS/AD:** (1) "ALS FTD TDP-43 single cell transcriptomics postmortem cortex 2026" → PMID 42385702 (Zhou Cell, TOP1 somatic mutations); PMID 42551425 (Petrescu Cell, ALS cognitive language/executive snRNA+spatial). (2) "neurodegeneration spatial transcriptomics synucleinopathy dopamine vulnerability 2026" → PMID 42481480 (Rumpf Nat Commun, spatial multi-omics PD substantia nigra). (3) "iPSC organoid APOE4 astrocyte alpha-synuclein tau 2026" → PMID 42636814 (Mesentier-Louro Cell Stem Cell, APOE4 astrocyte cholesterol α-syn miBrains). (4) "FTD frontoinsular cortex single-cell transcriptomics selective vulnerability 2026" → PMID 42523377 (Breevoort bioRxiv, FTD frontoinsular scRNA-seq preprint). Excluded: PMID 42560134 (neuroinflammation AD review) — review; PMID 42276043 (nuclear proteome NSC, May 2026 pub) — outside window; PMID 42049021 (astrocyte collagen ischemic stroke, April 2026) — outside window; PMID 42129551 (OINS neural crest Nature) — outside domain; PMID 42398271 (15-PGDH PD neuroprotection) — pharmacological, not cell-type transcriptomic primary; PMID 42660464 (TBI multi-omics review) — review; PMID 42421066 (NETs NMOSD BBB) — off-domain autoimmune.
+- **D2 SWCNT/biosensors:** (1) PubMed "single-walled carbon nanotube NIR fluorescence sensor biofluid 2026 [datetype=pdat]" → PMID 42409644 (Israel Nano Lett, ssDNA-SWCNT spectral fingerprinting 4 anthracyclines in synthetic urine/sweat, PMC open). (2) "SWCNT fiber probe neural dopamine imaging near-infrared 2026" → PMID 42503866 (Shin ACS Nano, NeuRIFI dual-readout NIR fiber probe, DNA-SWCNT, 90 nM DA, ex vivo brain). No additional on-domain SWCNT papers identified in window.
+- **D3 Transcriptomics/single-cell/spatial/multi-omics:** (1) "spatial transcriptomics cross-omics integration translation transformer 2026" → PMID 42426404 (Wang Nat Methods, NicheTrans spatial cross-omics translation). (2) "NHP macaque brain atlas single-cell aging lifespan multimodal 2026" → PMID 42612631 (Zhang Cell, multimodal macaque brain atlas 2.9M nuclei 8 regions 23 female macaques). Also found and deferred: PMID 42462710 (Cell, isoform-resolved spatial MERFISH — strong D3 candidate but July 2026 pub date confirmed, will capture in deepen pass); PMID 42190664 (Cell, spatial CRISPR screen) — off-domain cancer. Excluded PMID 42137938 (HFpEF snRNA-seq cardiac) — off-domain. Excluded PMID 42276047 (pancreatic cancer scRNA-seq) — off-domain.
+- **D4 Mechanobiology/BBB:** (1) "blood-brain barrier aging transcytosis caveolin TGF 2026" → PMID 42385697 (Fang Neuron, TGF-β1-induced endothelial transcytosis drives age-related BBB leakage). (2) "BBB mechanobiology neural ECM confinement 2026" → confirmed D4 record already in library (trivedi, strat, chen). No additional D4 primary studies confirmed in window beyond Fang 2026. Excluded PMID 42261674 (baroreceptor mechanotransduction review) — review; excluded PMID 42049021 (astrocyte collagen ischemic stroke) — outside window.
+
+### Records ADDED (path + priority + status)
+- **D1** `02_PAPERS/2026/zhou_2026_top1-somatic-mutations-als-ftd-ad.md` — **P1, partial (PMC full text inspected: methods, results)**. PMID 42385702, DOI 10.1016/j.cell.2026.06.013, PMCID PMC13340254. Cell 2026-07-01. Single-cell WGS (PTA+FANS) of 469 neurons from ALS (6 C9orf72), FTD (6 C9orf72), AD (29), and controls; TOP1-mediated 2-bp deletion signature shared across diseases; cerebellar neurons spared; validated in iPSC CRISPRi TDP-43 KD.
+- **D1** `02_PAPERS/2026/rumpf_2026_spatial-multiomics-synucleinopathy-dopamine.md` — **P1, needs_full_text**. PMID 42481480, DOI 10.1038/s41467-026-74961-6. Nat Commun 2026-07-21. Spatial transcriptomics + spatial proteomics + αSyn SAA in PD substantia nigra; early synaptic pruning + context-specific dopaminergic vulnerability.
+- **D1** `02_PAPERS/2026/petrescu_2026_als-cognitive-language-snrna-spatial.md` — **P1, needs_full_text**. PMID 42551425, DOI 10.1016/j.cell.2026.07.008. Cell 2026-08-04. Spatial + snRNA-seq of ALS prefrontal cortex; distinct cellular phenotypes of language vs. executive decline in ALS.
+- **D1** `02_PAPERS/2026/mesentier-louro_2026_apoe4-astrocyte-alpha-syn-mibrains.md` — **P2, needs_full_text**. PMID 42636814, DOI 10.1016/j.stem.2026.08.001. Cell Stem Cell 2026-08-24. APOE4 astrocyte cholesterol dysregulation promotes α-synuclein pathology in iPSC-derived miBrain organoids.
+- **D1** `02_PAPERS/2026/breevoort_2026_ftd-frontoinsular-cortex-snrnaseq-vulnerability.md` — **P2, needs_full_text (preprint)**. PMID 42523377, DOI 10.64898/2026.07.13.738307. bioRxiv 2026-07-14. snRNA-seq atlas of FTD frontoinsular cortex; molecular correlates of selective neuronal vulnerability in behavioral variant FTD.
+- **D2** `02_PAPERS/2026/israel_2026_swcnt-anthracycline-nir-spectral-fingerprinting.md` — **P2, partial (PMC full text inspected)**. PMID 42409644, DOI 10.1021/acs.nanolett.6c01777, PMCID PMC13397890. Nano Lett 2026. 84-element ssDNA-SWCNT array (12 ssDNA × 7 SWCNT chiralities); XGBoost 100% 4-class anthracycline classification; SHAP feature attribution; validated in synthetic urine + sweat.
+- **D2** `02_PAPERS/2026/shin_2026_swcnt-fiber-probe-dopamine-neuroimaging.md` — **P2, needs_full_text**. PMID 42503866, DOI 10.1021/acsnano.6c07740. ACS Nano 2026-08-11. NeuRIFI: DNA-SWCNT on implantable optical fiber; dual-readout (photometry + remote NIR imaging) DA mapping; 90 nM sensitivity, 20 ms temporal, ~1.5 μm/pixel spatial; validated in tissue phantoms + ex vivo mouse brain (3 mm depth).
+- **D3** `02_PAPERS/2026/wang_2026_nichetrans-spatial-crossomics-translation.md` — **P2, needs_full_text**. PMID 42426404, DOI 10.1038/s41592-026-03153-3. Nat Methods 2026-07-09. NicheTrans: Transformer-based spatial cross-omics translation incorporating cell-cell niche context; applied to AD brain glial spatial data.
+- **D3** `02_PAPERS/2026/zhang_2026_macaque-brain-atlas-lifespan-multimodal.md` — **P2, needs_full_text**. PMID 42612631, DOI 10.1016/j.cell.2026.07.045. Cell 2026-08-18. Multimodal (snRNA-seq + snATAC-seq) atlas; 2,955,873 nuclei; 8 brain regions; 23 female cynomolgus macaques; adult lifespan coverage.
+- **D4** `02_PAPERS/2026/fang_2026_tgfb1-bbb-transcytosis-aging.md` — **P1, needs_full_text**. PMID 42385697, DOI 10.1016/j.neuron.2026.06.003. Neuron 2026-07-01. TGF-β1 drives age-related BBB leakage via endothelial caveolar transcytosis (not tight junctions); onset at midlife; AAV knockdown of caveolin-1 or Mfsd2a restoration reverses leakage.
+
+### Candidates SKIPPED (one-line reason)
+- PMID 42560134 (neuroinflammation AD, Int J Dev Neurosci) — review.
+- PMID 42276043 (nuclear proteome NSC, Cell May 2026) — pub date 2026-05, outside window.
+- PMID 42049021 (astrocyte collagen ischemia, Cell Metab April 2026) — pub date 2026-04, outside window.
+- PMID 42129551 (OINS neural crest, Nature) — off-domain (developmental visceral nervous system).
+- PMID 42398271 (15-PGDH PD neuroprotection, Redox Biol) — pharmacological, not cell-type transcriptomic primary.
+- PMID 42660464 (TBI multi-omics aging review, Ageing Res Rev) — review.
+- PMID 42421066 (NETs NMOSD BBB, J Neuroinflammation) — off-domain autoimmune.
+- PMID 42261674 (baroreceptor mechanotransduction review, Hypertension) — review.
+- PMID 42462710 (Cell, isoform-resolved spatial MERFISH, June 2026) — pub date confirmed 2026-06, outside window; record for next pass.
+- PMID 42190664 (spatial CRISPR screen, Cell) — off-domain (cancer).
+- PMID 42276047 (pancreatic cancer snRNA-seq, Cancer Cell) — off-domain.
+- PMID 42137938 (HFpEF cardiac snRNA-seq, Circ Res) — off-domain (cardiac).
+- All Journal of Ethnopharmacology hits (42532227, 42497599, 42492703, 42492702, 42486454, 42476206, 42472598, 42462419) — off-domain (TCM, hepatotoxicity, microbiology).
+- Carbon catabolite repression papers (42662560, 42602370) — off-domain (microbiology/bioprocessing).
+
+### Notes / needs_full_text (revisit when access available)
+- needs_full_text: rumpf_2026 — Nat Commun open access; retrieve for cohort size, spatial platform, data accession.
+- needs_full_text: petrescu_2026 — Cell paywall; retrieve for cohort, spatial platform, data accession.
+- needs_full_text: mesentier-louro_2026 — Cell Stem Cell paywall; retrieve for miBrain protocol details.
+- needs_full_text: breevoort_2026 — bioRxiv preprint; retrieve for cohort composition, FTD subtypes, data accession; monitor for peer review.
+- needs_full_text: shin_2026 — ACS Nano paywall; retrieve for DNA sequence, SWCNT chirality, fiber functionalization protocol.
+- needs_full_text: wang_2026 — Nat Methods paywall; retrieve for benchmark details, code availability, AD dataset accession.
+- needs_full_text: zhang_2026 — Cell paywall; retrieve for brain regions profiled, age range, data accession.
+- needs_full_text: fang_2026 — Neuron paywall, no PMC; retrieve for animal model, sample sizes, TGF-β1 mechanism details.
+- Zhou 2026 supplement not inspected — Tables S1–S5 contain case metadata, QC, mutation catalogs.
+- Israel 2026 supplement not inspected — detailed dispersion protocol and exact ssDNA sequences.
+
+### Gaps to target next pass (2026-09-01 → next monthly)
+- **D1:** Blast TBI primary studies with calibrated pressure/impulse waveforms still absent (only organoid + C. elegans in library). isoform-resolved spatial MERFISH (PMID 42462710, Cell June 2026) deferred — check in next pass.
+- **D2:** No in vivo implantable SWCNT neural sensor primary (Shin 2026 ex vivo only). Corona-phase QC in real patient biofluids still thin.
+- **D3:** Cross-cohort harmonization benchmark (PRIME/GAMMI) still absent. NicheTrans benchmark performance vs. comparators needs full-text confirmation.
+- **D4:** Confinement/migration assay linked to neural or glial phenotype (gap from previous passes). Verify Fang 2026 animal model details and check for RNA-seq data deposit.
+
+---
+
 ## 2026-07-01 — Monthly pass #1 (mode: monthly, window: 2026-06-22 → 2026-07-01)
 **Window:** 2026-06-22 to 2026-07-01 (publication date filter). **Added: 4 records.** Library total: 30 → **34**.
 Per-domain (before → after): D1 8→9, D2 7→7 (no new records), D3 8→9, D4 7→9.
