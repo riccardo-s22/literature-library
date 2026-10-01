@@ -5,6 +5,48 @@ window for the next monthly pass. Newest entries at the top. Maintained by the `
 
 ---
 
+## 2026-10-01 — Monthly pass #2 (mode: monthly, window: 2026-07-01 → 2026-10-01)
+**Window:** 2026-07-01 to 2026-10-01 (publication date filter; 3-month window due to first pass being July 1). **Added: 6 records.** Library total: 34 → **40**.
+Per-domain (before → after): D1 9→12 (kasper, alojaimi, linville), D2 7→7 (no new records — gap persists for second consecutive pass), D3 9→12 (plummer, castrobrant, linville), D4 9→10 (leereeves). Note: linville spans D1+D3; leereeves spans D4+D1.
+
+### Queries per domain
+- **D1 Neurodeg/TBI/ALS/AD:** Initial multi-field PubMed queries with 5+ AND terms returned 0 results due to over-conjunction; simplified to 3–4 key terms. Queries used: "ALS TDP-43 tau biomarker 2026" (date-filtered, PubMed) → found Kasper 2026 (PMID 42112660, Ann Neurol), Alojaimi 2026 (PMID 42561511, Neurotherapeutics); "striatum single-cell atlas neurodegeneration 2026" (date-filtered, PubMed) → found Linville 2026 (PMID 42679819, Cell). Also retrieved 10+ D1 candidates from broader "neurodegeneration ALS 2026" PubMed bulk search (parsed metadata); triaged and selected the 3 above.
+- **D2 SWCNT/biosensors:** PubMed returned 0 hits for all carbon nanotube / SWCNT queries — known limitation (ACS Nano, Small, Nanoscale not indexed in PubMed biomedical domain). WebSearch used: "SWCNT single-walled carbon nanotube NIR optical sensor biofluid serum plasma 2026" and "ACS Nano OR Small 2026 carbon nanotube biosensor biomarker". Found one medRxiv candidate: SWCNT-ALS serum protein corona paper (DOI 10.64898/2026.06.08.26354966, first-posted 2026-06-08) — excluded because first-post date is BEFORE window start (2026-07-01). **No D2 candidates found in window.**
+- **D3 Transcriptomics/spatial/multi-omics:** "spatial transcriptomics benchmark QC reproducibility 2026" (date-filtered, PubMed) → found Plummer 2025/2026 (PMID 41339526, Nat Biotechnol; epub Dec 2025, print vol 44 issue 7 Jul 2026 — filed year 2025 per epub); "spatial transcriptomics post-mortem brain protocol 2026" → found CastroBrant 2026 (PMID 42619824, bioRxiv preprint Aug 1 2026). Also noted Linville 2026 spans D3 (snRNA-seq, spatial transcriptomics keywords).
+- **D4 Mechanobiology/ECM/neural injury/barriers:** Multi-term PubMed queries returned 0 (over-conjunction); simplified to: "ECM hydrogel TBI neural stem cell 2026" (PubMed, date-filtered) → found Lee-Reeves 2026 (PMID 42391517, ACS Biomater Sci Eng, Aug 10 2026). Additional queries for mechanobiology primaries (confinement migration, blast TBI, force signaling) returned off-domain or review-only hits.
+
+### Records ADDED (path + priority + status)
+- **D1** `02_PAPERS/2026/kasper_2026_als-ad-copathology-csf-biomarkers.md` — **P1, verified (abstract/metadata).** PMID 42112660, DOI 10.1002/ana.78227, PMC13327596. Ann Neurol 2026;100(1):123-138. N=192 ALS/ALS-FTD + 100 HC; CSF tau, p-tau, Aβ, plasma TDP-43, NfL; ECAS cognitive testing; autopsy sub-cohort; CSF p-tau/t-tau (not plasma TDP-43) associates with cognitive impairment in ALS.
+- **D1** `02_PAPERS/2026/alojaimi_2026_tdp43-intrabody-als-multiomics.md` — **P2, verified (abstract/metadata).** PMID 42561511, DOI 10.1016/j.neurot.2026.e01032, PMC13464227. Neurotherapeutics 2026;23(5):e01032. Anti-TDP-43 scFv B1 via AAV-CAP.B10 in hTDP-43(WTxA315T) mice; multi-omics (RNA-seq + metabolomics + PET + plasma NfL/TDP-43); negative result: molecular effects without post-onset functional benefit.
+- **D3** `02_PAPERS/2025/plummer_2025_spatialqm-imaging-spatial-touchstone.md` — **P1, verified (abstract/metadata).** PMID 41339526, DOI 10.1038/s41587-025-02811-9, PMC13368583. Nat Biotechnol 2026;44(7):1213-1225 (epub Dec 3 2025). 254 spatial profiles, Xenium + CosMx, 6 tissue types, multi-site; SpatialQM open-source QC software + STSOPs.
+- **D3** `02_PAPERS/2026/castrobrant_2026_spatial-postmortem-brain-framework.md` — **P1, partial (preprint; full text needed).** PMID 42619824, DOI 10.64898/2026.07.28.740610, PMC13484011. bioRxiv Aug 1 2026. End-to-end framework for single-cell-resolution whole-transcriptome spatial profiling of post-mortem human brain; 7 AD frontal cortex specimens (5 FF + 2 FFPE); 530,000-cell atlas; condensed 2-day protocol; preservation-agnostic reference-based HVG selection.
+- **D1/D3** `02_PAPERS/2026/linville_2026_striatum-atlas-snrna-crossspecies.md` — **P2, verified (abstract/metadata).** PMID 42679819, DOI 10.1016/j.cell.2026.08.006. Cell 2026 Sep 1. 109 human + 22 mouse striatum samples; snRNA-seq cross-species atlas; rare neuronal subpopulations; transcriptional gradients; GWAS integration; HD neuronal subtype vulnerability; opioid receptor and antipsychotic targets.
+- **D4** `02_PAPERS/2026/leereeves_2026_dural-ecm-hydrogel-tbi-nsc.md` — **P2, verified (abstract/metadata).** PMID 42391517, DOI 10.1021/acsbiomaterials.6c00319. ACS Biomater Sci Eng 2026;12(8):4360-4376. Decellularized porcine dural ECM hydrogel + NSC for TBI; 559-protein proteome; MBVs distinct from exosomes; CCI mice: improved motor recovery (hydrogel alone, NSC alone, or combination).
+
+### Candidates SKIPPED (one-line reason)
+- SWCNT-ALS serum protein corona medRxiv (DOI 10.64898/2026.06.08.26354966) — first-posted 2026-06-08, before window start (2026-07-01); exclude per window rules.
+- Multiple D1 hits from PubMed bulk fetch (tau reviews, AD-drug-development reviews, clinical epi summaries) — reviews or orient-only, not primary evidence.
+- Off-domain D1 hits: macrophage/microglia cancer immunology, non-neural aging, psychiatric pharmacology without mechanistic primary data.
+- D3 hits: tissue-specific scRNA-seq applications outside neurodegeneration/multi-omics methods (e.g., cardiovascular, hepatic) — off-domain.
+- D4 hits: pharmacological TBI interventions without ECM or mechanobiology primary endpoint; reviews of neuroinflammation without mechanical readout.
+
+### Notes / needs_full_text (revisit when access available)
+- **castrobrant_2026:** PMC13484011 available — inspect for: spatial platform (Xenium/CosMx?), gene panel size, GitHub pipeline URL, GEO accession for 530,000-cell atlas, DAPI segmentation parameters, donor demographics (PMI, age, sex). Priority action.
+- **plummer_2025:** PMC13368583 available — inspect for: which 6 tissue types (confirm if post-mortem brain is included), SpatialQM GitHub URL, exact QC metric definitions, 254-profile repository accession.
+- **kasper_2026:** PMC13327596 available — inspect for: autopsy sub-cohort n, regression coefficients, exact biomarker assay platforms, LOQ values.
+- **alojaimi_2026:** PMC13464227 available — inspect for: AAV dose/titer, RNA-seq accession (GEO), metabolomics accession (Metabolomics Workbench), exact group sizes.
+- **linville_2026:** Full text (Cell paywall); inspect for: data accession (GEO / Broad Single Cell Portal / CellxGene), total cell count, CAG repeat methodology, spatial transcriptomics platform and extent, batch correction approach.
+- **leereeves_2026:** ACS paywall; inspect for: CCI parameters, group sizes, behavioral test names, proteomics platform, MBV characterization method, statistical tests; check ProteomeXchange/PRIDE for data deposit.
+- **D2 gap (second consecutive pass):** No on-domain SWCNT biosensor biofluid papers confirmed in July–October 2026 window. One candidate found (SWCNT-ALS serum corona, medRxiv) was outside the window. Continue monitoring ACS Nano, Small, Nanoscale, Biosensors and Bioelectronics; expand next-pass D2 search to include Google Scholar and BioRxiv in addition to WebSearch.
+
+### Gaps to target next pass (2026-10-01 → next monthly)
+- **D1:** Mammalian calibrated shock-tube / blast primary for TBI still absent (only invertebrate C. elegans + organoid models in library); any calibrated closed-head blast mouse or rat primary with neural readout. Presymptomatic FTLD-tau / plasma tau368 validation (Kac 2026 author-stated future work). TBI-to-neurodegeneration longitudinal biomarker data.
+- **D2:** D2 gap persists for second consecutive pass. Broaden search to bioRxiv + Google Scholar + ACS Publications directly for SWCNT NIR optical sensor biofluid papers. Any SWCNT biosensor peer-reviewed primary (2025–2026) in a biologically relevant matrix.
+- **D3:** PRIME (bioRxiv, atlas-level sc+ST integration; deferred from prior pass) — check for publication. GAMMI mosaic integration. Cross-cohort harmonization benchmark (identified as thin in prior passes). castrobrant_2026 GitHub pipeline and GEO accession retrieval when PMC full text is inspected.
+- **D4:** Confinement/migration assay linked to neural or glial injury readouts (gap from prior passes). Verify Trivedi 2026 transcriptomic data deposition. Lee-Reeves 2026 comparison ECM papers (non-dural brain ECM hydrogels for TBI) to contextualize D4 further.
+
+---
+
 ## 2026-07-01 — Monthly pass #1 (mode: monthly, window: 2026-06-22 → 2026-07-01)
 **Window:** 2026-06-22 to 2026-07-01 (publication date filter). **Added: 4 records.** Library total: 30 → **34**.
 Per-domain (before → after): D1 8→9, D2 7→7 (no new records), D3 8→9, D4 7→9.
