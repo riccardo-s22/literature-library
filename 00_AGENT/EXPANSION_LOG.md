@@ -5,6 +5,48 @@ window for the next monthly pass. Newest entries at the top. Maintained by the `
 
 ---
 
+## 2026-11-01 — Monthly pass #2 (mode: monthly, window: 2026-07-01 → 2026-11-01)
+**Window:** 2026-07-01 to 2026-11-01 (publication date filter). **Added: 4 records.** Library total: 34 → **38**.
+Per-domain (before → after): D1 9→11, D2 7→7 (no new records), D3 9→10, D4 9→10.
+
+### Queries per domain
+- **D1 Neurodeg/TBI/ALS/AD (PubMed):** "Alzheimer's disease biomarker plasma CSF serum longitudinal 2026[PDAT]" (94 hits) + "traumatic brain injury neurodegeneration tau TDP-43 microglia 2026[PDAT]" (62 hits) + "ALS FTD TDP-43 biomarker 2026[PDAT]" (supplementary). Triage: 15 candidates reviewed. Selected: Oberstein 2026 (β-synuclein serum AD, Brain, Oct 2026, PMID 42904923, P1); Mu 2026 (lecanemab plasma proteomics, Lancet Neurology, Sep 2026, PMID 42785333, P2); Bjørnholm 2026 (sc vascular+microglial atlas AD/CADASIL/TBI, Nat Comms, Jul 2026, PMID 42463666, P1 — spans D1+D4).
+- **D2 SWCNT/biosensors:** "single-walled carbon nanotube SWCNT NIR fluorescence biosensor biofluid serum plasma 2026[PDAT]" (PubMed, 0 on-domain hits) + WebSearch ("SWCNT nanosensor biofluid biosensor 2026 ACS Nano Small Nanoscale"). No peer-reviewed on-domain SWCNT biosensor papers found in window. One medRxiv preprint for ALS SWCNT (medRxiv inaccessible — domain blocked). **D2 gap persists.**
+- **D3 Transcriptomics/computational (PubMed):** "single-cell spatial transcriptomics integration multi-omics 2026[PDAT]" (broad query, 200+ hits) + targeted query for graph contrastive learning sc spatial. Selected: Zhou 2026 / Garfield (graph contrastive learning sc+spatial, Briefings Bioinformatics, Jul 2026, PMID 42608748, P2). Other hits: off-domain cancer/plant/general genomics → skipped.
+- **D4 Mechanobiology/BBB/TBI (PubMed):** "traumatic brain injury blood-brain barrier vascular transcriptomics neuroinflammation 2026[PDAT]" + targeted queries. Bjørnholm 2026 identified in D1 triage covers D4 as well. Additional D4 candidates (TBI TMS review, pharmacological TBI papers) were pharmacological/review — skipped. Bjørnholm 2026 assigned to both D1 and D4. Net D4 addition: 1 record (Bjørnholm 2026).
+
+### Records ADDED (path + priority + status)
+- **D1+D4** `02_PAPERS/2026/bjornholm_2026_sc-vascular-microglial-atlas-ad-tbi-cadasil.md` — **P1, verified (PMC full text inspected)**. PMID 42463666, DOI 10.1038/s41467-026-75367-0, PMCID PMC13377223. Nat Comms 2026-07-16. sc+snRNA-seq >250,000 vascular+microglial cells across AD, CADASIL, TBI mouse models; brain vasculature transcriptionally stable; microglia disease-specific; late TBI/AD microglial convergence; 2 novel vascular subtypes; Visium HD spatial validation.
+- **D1** `02_PAPERS/2026/oberstein_2026_beta-synuclein-serum-ad-biomarker.md` — **P1, needs_full_text (Brain paywalled)**. PMID 42904923, DOI 10.1093/brain/awag361. Brain 2026-10-21. β-synuclein serum biomarker in AT-classified MCI/SCI (n=259); Cohen's d=0.69 in A+T+ AD; HR=1.40/SD for dementia conversion, independent of pTau181/Aβ42/40.
+- **D1** `02_PAPERS/2026/mu_2026_lecanemab-plasma-biomarkers-ad-dynamics.md` — **P2, needs_full_text (Lancet Neurology paywalled)**. PMID 42785333, DOI 10.1016/S1474-4422(26)00284-X. Lancet Neurology 2026-09-24. 130 plasma proteins in 197 lecanemab + 1312 untreated + 458 Aβ- controls (Knight ADRC); 34 significant proteins; 4 trajectory types (normalising: pTau217/MAPT/GFAP; overcorrecting: Aβ; opposite: NPTXR/NRGN/TREM2; unchanged: NEFL/APOE).
+- **D3** `02_PAPERS/2026/zhou_2026_garfield-sc-spatial-contrastive-learning.md` — **P2, partial (abstract/metadata; PMC13481149 available, not yet fetched)**. PMID 42608748, DOI 10.1093/bib/bbag432. Briefings Bioinformatics 2026-07-03. Garfield graph-contrastive learning framework for unified sc+spatial multi-omics integration and niche transfer; consistently outperforms SOTA on spatial niche identification; applied to mouse brain multimodal spatial data.
+
+### Candidates SKIPPED (one-line reason)
+- PMID 42112660 (Kasper 2026, Ann Neurol, ALS-AD co-pathology in autopsy cohort) — published May 11 2026, before search window.
+- PMID 42342036 (Rasiah 2026) — published June 24 2026, before search window.
+- PMID 41913445 (Barrett 2026, J Neurotrauma, IFN-β TBI chronic) — published March 30 2026, before search window.
+- PMID 42731085 (Shen 2026, FASEB J, TBI PTM review) — review only, orient-level.
+- PMID 42804839 (Xi 2026, J Psychiatr Res, MgSO4 TBI) — pharmacological TBI intervention, not mechanobiology primary.
+- PMID 42804977 (Yang 2026, Neurotherapeutics, CGA TBI cGAS-STING) — pharmacological intervention, not mechanobiology primary.
+- PMID 42906069 (Rao 2026, Neurology, NT1 ADNI longitudinal) — viable P2 but 4 records sufficient for this pass; defer to next pass.
+- D3 general search hits (PMIDs 42401786, 42911458, others) — off-domain (cancer/dermatology/plant biology).
+- González-Gallego 2025 (Nat Neurosci iPSC BBB, PMID 41398476) — published Dec 15 2025, before search window; carry to next pass.
+- ALS SWCNT medRxiv preprint — medRxiv domain inaccessible in this session (DNS blocked); unreviewed; cannot verify.
+
+### Notes / needs_full_text (revisit when access available)
+- needs_full_text: oberstein_2026 (Brain paywalled; obtain to extract assay platform, exact covariate model, CI for HR, APOE stratification, survival curves).
+- needs_full_text: mu_2026 (Lancet Neurology paywalled; obtain to extract full 34-protein list, trajectory model details, proteomics platform, cohort demographics, supplement tables).
+- partial: zhou_2026 Garfield (PMC13481149 available; fetch to extract code URL, exact benchmark metrics, dataset accessions, scalability data).
+- D2 gap persists: no new peer-reviewed SWCNT biosensor + biofluid papers in this 4-month window. Continue monitoring ACS Nano, Small, Nanoscale, Biosensors and Bioelectronics.
+
+### Gaps to target next pass (2026-11-01 → 2027-01 or next monthly)
+- **D1:** Retrieve full text for Oberstein 2026 (β-synuclein) and Mu 2026 (lecanemab proteomics). Evaluate Rao 2026 (NT1 ADNI longitudinal, PMID 42906069) as deferred P2 candidate. Plasma tau368 validation studies (follow-up to Kac 2026 gap noted in Monthly pass #1).
+- **D2:** Persistent D2 gap: continue SWCNT biofluid sensor monitoring. Revisit medRxiv ALS SWCNT preprint when published in peer-reviewed venue.
+- **D3:** Fetch PMC full text for Garfield (PMC13481149). Evaluate Garfield vs FGOT/SIMO for pipeline use. Cross-cohort harmonization benchmark (PRIME/GAMMI) remains thin.
+- **D4:** Verify BBB confinement/migration assay linked to neural injury (gap from deepen pass #3). Check data deposition for Bjørnholm 2026 (no GEO accession identified in full text; pursue from article or authors). Confirm Trivedi 2026 transcriptomic data deposition.
+
+---
+
 ## 2026-07-01 — Monthly pass #1 (mode: monthly, window: 2026-06-22 → 2026-07-01)
 **Window:** 2026-06-22 to 2026-07-01 (publication date filter). **Added: 4 records.** Library total: 30 → **34**.
 Per-domain (before → after): D1 8→9, D2 7→7 (no new records), D3 8→9, D4 7→9.
