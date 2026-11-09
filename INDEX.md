@@ -1,14 +1,16 @@
 # LIBRARY Catalog (auto-generated)
 
-_Generated 2026-07-01 by `00_AGENT/tools/build_index.py` — do not edit by hand; rerun the script after adding or changing records._
+_Generated 2026-11-01 by `00_AGENT/tools/build_index.py` — do not edit by hand; rerun the script after adding or changing records._
 
-**34 records** across 1 type(s). Companion machine-readable table: `00_AGENT/index.csv`.
+**38 records** across 1 type(s). Companion machine-readable table: `00_AGENT/index.csv`.
 
-## Paper (34)
+## Paper (38)
 
 | P | Title | Year | Status | Topics | ID | Record |
 |---|---|---|---|---|---|---|
+| 1 | Heterogenous microglial reactivity contrasts with stable vascular transcriptional programs in mouse models of Alzheimer's, CADASIL, and Traumatic Brain Injury | 2026 | verified |  | 10.1038/s41467-026-75367-0 | [bjornholm_2026_sc-vascular-microglial-atlas-ad-tbi-cadasil.md](02_PAPERS/2026/bjornholm_2026_sc-vascular-microglial-atlas-ad-tbi-cadasil.md) |
 | 1 | Multi-modal dissection of cell-type specific TDP-43 pathology in the motor cortex | 2026 | partial | neurodegeneration, ALS, AD_ADRD, single_cell, transcriptomics, spatial_omics, multi_omics | 10.1038/s41467-026-69944-6 | [ruf_2026_celltype-tdp43-motor-cortex.md](02_PAPERS/2026/ruf_2026_celltype-tdp43-motor-cortex.md) |
+| 1 | Serum β-synuclein predicts dementia conversion and mortality beyond amyloid-β and phospho-tau | 2026 | needs_full_text |  | 10.1093/brain/awag361 | [oberstein_2026_beta-synuclein-serum-ad-biomarker.md](02_PAPERS/2026/oberstein_2026_beta-synuclein-serum-ad-biomarker.md) |
 | 1 | Tau368 improves p-tau diagnostic accuracy for FTLD-tau from FTLD-TDP | 2026 | verified | neurodegeneration, AD_ADRD | 10.1007/s00401-026-03042-1 | [kac_2026_tau368-ftld-tau-csf-biomarker.md](02_PAPERS/2026/kac_2026_tau368-ftld-tau-csf-biomarker.md) |
 | 1 | A comprehensive head-to-head comparison of key plasma phosphorylated tau 217 biomarker tests | 2025 | verified | neurodegeneration, AD_ADRD, aging | 10.1093/brain/awae346 | [warmenhoven_2025_ptau217-head-to-head-biofinder2.md](02_PAPERS/2025/warmenhoven_2025_ptau217-head-to-head-biofinder2.md) |
 | 1 | A tabletop blast device for the study of the long-term consequences of traumatic brain injury on brain organoids | 2025 | verified | neurodegeneration, TBI, ALS, AD_ADRD, mechanobiology, organoid | 10.1016/j.crmeth.2025.101213 | [sirtori_2025_tabletop-blast-organoid-tbi.md](02_PAPERS/2025/sirtori_2025_tabletop-blast-organoid-tbi.md) |
@@ -20,6 +22,8 @@ _Generated 2026-07-01 by `00_AGENT/tools/build_index.py` — do not edit by hand
 | 1 | Molecular characterization of selectively vulnerable neurons in Alzheimer's disease | 2021 | verified | neurodegeneration, AD_ADRD, aging, single_cell, transcriptomics | 10.1038/s41593-020-00764-7 | [leng_2021_rorb-vulnerable-neurons-ad.md](02_PAPERS/2021/leng_2021_rorb-vulnerable-neurons-ad.md) |
 | 1 | Telescope: Characterization of the retrotranscriptome by accurate estimation of transposable element expression | 2019 | verified | transcriptomics, single_cell, multi_omics | 10.1371/journal.pcbi.1006453 | [bendall_2019_telescope-te-quantification.md](02_PAPERS/2019/bendall_2019_telescope-te-quantification.md) |
 | 2 | A dried platelet-derived biologic for blood-brain barrier repair and hemorrhage control after TBI in mice. | 2026 | verified | mechanobiology, neurodegeneration, TBI | 10.1182/blood.2025031826 | [trivedi_2026_dried-platelet-bbb-repair-tbi.md](02_PAPERS/2026/trivedi_2026_dried-platelet-bbb-repair-tbi.md) |
+| 2 | Dynamic changes in plasma biomarkers of Alzheimer's disease in patients treated with lecanemab: a longitudinal cohort study | 2026 | needs_full_text |  | 10.1016/S1474-4422(26)00284-X | [mu_2026_lecanemab-plasma-biomarkers-ad-dynamics.md](02_PAPERS/2026/mu_2026_lecanemab-plasma-biomarkers-ad-dynamics.md) |
+| 2 | Graph-based contrastive learning enables unified integration and niche transfer across single-cell and spatial multi-omics | 2026 | partial |  | 10.1093/bib/bbag432 | [zhou_2026_garfield-sc-spatial-contrastive-learning.md](02_PAPERS/2026/zhou_2026_garfield-sc-spatial-contrastive-learning.md) |
 | 2 | Interpretable data integration for single-cell and spatial multi-omics | 2026 | verified | transcriptomics, single_cell, spatial_omics, multi_omics | 10.1016/j.cels.2025.101479 | [yang_2026_fgot-spatial-interpretable-integration.md](02_PAPERS/2026/yang_2026_fgot-spatial-interpretable-integration.md) |
 | 2 | MAJIQ-CLIN: A novel tool to help identify Mendelian disease-causing variants from RNA-Seq data | 2026 | needs_full_text | transcriptomics, multi_omics | 10.1016/j.gim.2026.102628 | [aicher_2026_majiq-clin-splicing-outlier.md](02_PAPERS/2026/aicher_2026_majiq-clin-splicing-outlier.md) |
 | 2 | saseR: juggling offsets unlocks RNA-seq tools for fast and scalable differential usage, aberrant splicing and expression retrieval | 2026 | needs_full_text | transcriptomics, multi_omics | 10.1186/s13059-026-03973-8 | [segers_2026_saser-aberrant-splicing-expression.md](02_PAPERS/2026/segers_2026_saser-aberrant-splicing-expression.md) |
